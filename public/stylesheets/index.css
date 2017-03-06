@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+p { word-break: break-all }
+
+@font-face {
+    font-family: 'space_age'; /*a name to be used later*/
+    src: url("../fonts/space_age.ttf")
+}
+
+.header-container {
+  height: 400px;
+  background-image: url('../images/milkyway.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blast-container {
+  height: 300px;
+}
+
+.header-full-name {
+  font-family: "space_age";
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.occupation-name {
+  font-family: "space_age";
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.blast-title {
+  font-family: 'Ranga', cursive;
+  font-weight: bolder;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.blast-subtitle {
+  font-family: 'Ranga', cursive;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-explore, .btn-explore:focus, .btn-explore:active {
+  border: none;
+  font-weight: bolder;
+  background-color: white;
+  margin-top: 30px;
+  width: 100px;
+}
+
+.education-agenda-container {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.explore-btn-div {
+  text-align: center;
+}
+
+.education-agenda-title {
+  text-align: center;
+  color: white;
+  font-family: 'Ranga', cursive;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.education-circle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.education-description {
+  text-align: center;
+  color: white;
+  font-family: 'Ranga', cursive;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-header {
+  text-align: center;
+  color: white;
+  font-family: "space_age";
+}
+
+.portfolio-container {
+  padding: 30px 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.education-icon {
+  width: 63px;
+  height: 63px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-project-image {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+.main-project-title {
+  text-align: center;
+  font-family: 'Ranga', cursive;
+}
+
+#profile-photo {
+  border-radius: 50%;
+  width: 145px;
+  height: 145px;
+  position: absolute;
+    top: 330px;
+    left: 50%;
+  margin-left: -72.5px;
+  border: solid black 1px;
+}
