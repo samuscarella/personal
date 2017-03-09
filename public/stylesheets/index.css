@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 p { word-break: break-all }
@@ -99,7 +100,7 @@ p { word-break: break-all }
   font-family: "space_age";
 }
 
-.portfolio-container {
+.portfolio-container, .contact-us-container {
   padding: 30px 0;
 }
 
@@ -117,15 +118,72 @@ p { word-break: break-all }
 }
 
 .main-project-image {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   display: block;
   margin: 30px auto 0 auto;
+}
+
+.app-img {
+  height: 500.25px;
+  width: 281.25px;
+  display: block;
+  margin: 30px auto 0 auto;
+  border: solid black 1px;
+}
+
+.sub-contact-text {
+  color: white;
+  text-align: center;
+  font-family: 'Ranga', cursive;
 }
 
 .main-project-title {
   text-align: center;
   font-family: 'Ranga', cursive;
+}
+
+.main-project-description {
+  text-align: center;
+  margin: 30px 20%;
+  font-family: 'Ranga', cursive;
+}
+
+.source-code-btn {
+  margin: 45px auto 0 auto;
+  width:  281px;
+  display: block;
+}
+
+.tech-agenda-link:hover,.tech-agenda-link:visited,.tech-agenda-link:active,.tech-agenda-link:focus {
+  text-decoration: none;
+}
+
+.tech-agenda-col {
+  margin: 90px auto;
+}
+
+.contact-us-container {
+  background-color: black;
+  padding: 30px 0 90px 0;
+}
+
+.contact-us-name {
+  color: white;
+  font-family: 'Ranga', cursive;
+  text-align: center;
+}
+
+.contact-icon,.contact-icon:hover,.contact-icon:visited,.contact-icon:active,.contact-icon:focus {
+  width: 24px;
+  height: 24px;
+  margin: 3px 6px 3px 0;
+  color: white;
+  text-decoration: none;
+}
+
+#email-text {
+    font-size: 20px;
 }
 
 #profile-photo {

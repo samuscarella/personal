@@ -3,7 +3,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/img-preview.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="/javascripts/modal.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Stephen Muscarella</title>
   </head>
@@ -20,7 +22,7 @@
     <div class="container-fluid blast-container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="blast-title">iOS Developer | Software Engineer in Test</h1>
+          <h1 class="blast-title">iOS Developer | Software Engineer | Software Engineer in Test</h1>
           <h2 class="blast-subtitle">Eternal Learner - Driven Technology Enthusiast - Team Player</h2>
           <!-- Insert Arrow that points down and fades out on scroll and reappears on scroll back up -->
         </div>
@@ -29,17 +31,19 @@
     <div class="container-fluid education-agenda-container">
       <h2 class="section-header">Technology Agenda</h2>
       <div class="row">
-        <div class="col-md-3">
-          <h5 class="education-agenda-title">Coding Dojo Bootcamp</h5>
-          <div class="education-circle">
-            <span class="helper"></span>
-            <img src="/images/graduate-cap.png"/ class="education-icon">
-          </div>
-          <p class="education-description" style="margin-top:18px;">3 Full Stacks in 14 Weeks</p>
-          <p class="education-description">12 Hours A Day - Fast Paced</p>
-          <p class="education-description">Front End - Back End - Database</p>
+        <div class="col-md-3 tech-agenda-col">
+          <a href="http://www.codingdojo.com/" target="_blank" class="tech-agenda-link">
+            <h5 class="education-agenda-title">Coding Dojo Bootcamp</h5>
+            <div class="education-circle">
+              <span class="helper"></span>
+                <img src="/images/graduate-cap.png"/ class="education-icon">
+            </div>
+            <p class="education-description" style="margin-top:18px;">3 Full Stacks in 14 Weeks</p>
+            <p class="education-description">12 Hours A Day - Fast Paced</p>
+            <p class="education-description">Front End - Back End - Database</p>
+          </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 tech-agenda-col">
           <h5 class="education-agenda-title">Mobile Engineer</h5>
           <div class="education-circle">
             <span class="helper"></span>
@@ -49,7 +53,7 @@
           <p class="education-description">Android Development</p>
           <p class="education-description">Portable Technology Development</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 tech-agenda-col">
           <h5 class="education-agenda-title">Information Security</h5>
           <div class="education-circle">
             <span class="helper"></span>
@@ -59,7 +63,7 @@
           <p class="education-description">Data Protection</p>
           <p class="education-description">Defensive Programming</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 tech-agenda-col">
           <h5 class="education-agenda-title">Artificial Intelligence</h5>
           <div class="education-circle">
             <span class="helper"></span>
@@ -72,21 +76,56 @@
       </div>
     </div>
     <div class="container-fluid portfolio-container">
-      <h2 class="section-header" style="color:black;">Mega Project</h2>
+      <h2 class="section-header" style="color:black;">Portfolio</h2>
       <div class="row">
         <div class="col-md-12">
           <img src="/images/exploding_sun.png"/ class="main-project-image">
           <h1 class="main-project-title">Diffuze</h1>
+          <h3 class="main-project-description">Diffuze allows users to expand their scope of content by allowing viral content to spread based on location and popularity. Subscribe to content that interests you and watch your posts gain traction in real time.</h3>
+          <a href="https://github.com/samuscarella/diffuze" target="_blank" class="btn btn-primary source-code-btn">SOURCE CODE</a>
+        </div>
+      </div>
+      <div class="row app-img-row">
+        <div class="col-md-4 app-img-col">
+            <img src="/images/login-vc.png" class="app-img" id="app-img-one">
+        </div>
+        <div class="col-md-4 app-img-col">
+            <img src="/images/new_post.png" class="app-img" id="app-img-two">
+        </div>
+        <div class="col-md-4 app-img-col">
+            <img src="/images/bomb_vc.png" class="app-img" id="app-img-three">
+        </div>
+      </div>
+      <div class="row app-img-row">
+        <div class="col-md-4 app-img-col">
+            <img src="/images/post_detail.png" class="app-img" id="app-img-four">
+        </div>
+        <div class="col-md-4 app-img-col">
+            <img src="/images/audio_vc.png" class="app-img" id="app-img-five">
+        </div>
+        <div class="col-md-4 app-img-col">
+            <img src="/images/followers-vc.png" class="app-img" id="app-img-six">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid contact-us-container">
+      <h2 class="section-header" style="color:white;margin-bottom:30px;">Contact Me</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="contact-us-name">Stephen Muscarella</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
-          <img src="/images/exploding_sun.png"/ class="main-project-image">
-        </div>
-        <div class="col-md-6">
-          <img src="/images/exploding_sun.png"/ class="main-project-image">
+        <div class="col-md-12">
+          <h4 class="sub-contact-text"><img src="/images/telephone.png" class="contact-icon"/><a href="tel:408-722-5504" class="contact-icon">(408) 722-5504</a></h4>
+          <h4 class="sub-contact-text" id="email-text"><img src="/images/telephone.png" class="contact-icon"/><a href="mailto:stephen.anthony.muscarella@gmail.com" class="contact-icon">stephen.anthony.muscarella@gmail.com</a></h4>
+          <h4 class="sub-contact-text"><img src="/images/resume.png" class="contact-icon"/><a href="#" class="contact-icon">View My Resume</a></h4>
         </div>
       </div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
     </div>
   </body>
 </html>
