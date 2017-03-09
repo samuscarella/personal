@@ -101,7 +101,7 @@ p { word-break: break-all }
 }
 
 .portfolio-container, .contact-us-container {
-  padding: 30px 0;
+  padding: 30px 0 20px 0 !important;
 }
 
 .helper {
@@ -180,6 +180,24 @@ p { word-break: break-all }
   margin: 3px 6px 3px 0;
   color: white;
   text-decoration: none;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 45px auto;
+}
+
+.social-link {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.copyright-text {
+  text-align: center;
+  color: white;
+  opacity: 0.5;
 }
 
 #email-text {
