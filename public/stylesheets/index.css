@@ -6,6 +6,8 @@ html, body {
 
 p { word-break: break-all }
 
+a { color: white !important;}
+
 @font-face {
     font-family: 'space_age'; /*a name to be used later*/
     src: url("../fonts/space_age.ttf")
