@@ -14,7 +14,12 @@ $(document).ready(function() {
   var portfolioOffset = $("#portfolio").offset().top;
   var contactOffset = $("#contact-me").offset().top;
 
-  var $w = $(window).scroll(function(){
+  var $w = $(window).scroll(function() {
+
+      if(!$('#menu').hasClass('in')) {
+        return;
+      }
+
       if($w.scrollTop() < 360) {
         $('.icon-bar').css('background-color', 'white');
       }

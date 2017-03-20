@@ -126,6 +126,13 @@ a { color: white !important;}
   margin: 30px auto 0 auto;
 }
 
+.ma-and-pa-main-image {
+  height: 180px;
+  width: 135px;
+  display: block;
+  margin: 90px auto 30px auto;
+}
+
 .app-img {
   height: 500.25px;
   width: 281.25px;
