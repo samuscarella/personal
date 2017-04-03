@@ -14,6 +14,12 @@ $(document).ready(function() {
   var imgTen = document.getElementById('app-img-ten');
   var imgEleven = document.getElementById('app-img-eleven');
   var imgTwelve = document.getElementById('app-img-twelve');
+  var imgThirteen = document.getElementById('app-img-thirteen');
+  var imgFourteen = document.getElementById('app-img-fourteen');
+  var imgFifteen = document.getElementById('app-img-fifteen');
+  var imgSixteen = document.getElementById('app-img-sixteen');
+  var imgSeventeen = document.getElementById('app-img-seventeen');
+  var imgEighteen = document.getElementById('app-img-eighteen');
 
   var modalImg = document.getElementById("img01");
 
@@ -65,8 +71,32 @@ $(document).ready(function() {
       modal.style.display = "block";
       modalImg.src = this.src;
   }
+    imgThirteen.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+    imgFourteen.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+    imgFifteen.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+    imgSixteen.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+    imgSeventeen.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+    imgEighteen.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
 
-  // Get the <span> element that closes the modal
+    // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
