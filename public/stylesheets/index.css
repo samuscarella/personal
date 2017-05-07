@@ -165,9 +165,26 @@ a { color: white !important;}
 }
 
 .source-code-btn {
-  margin: 45px auto 0 auto;
-  width:  281px;
+  text-align: center;
+  margin: 10px -50px;
+  position:relative;
+  top: 50%;
+  left: 50%;
+}
+
+.project-button {
+  height: 100px;
+  width: 100px;
+}
+
+.appstore-button {
   display: block;
+  margin: auto;
+}
+
+.appstore-img {
+  height: 60px;
+  width: 200px;
 }
 
 .tech-agenda-link:hover,.tech-agenda-link:visited,.tech-agenda-link:active,.tech-agenda-link:focus {
