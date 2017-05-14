@@ -133,6 +133,14 @@ a { color: white !important;}
   margin: 30px auto 30px auto;
 }
 
+.moments-main-image {
+  height: 140px;
+  width: 140px;
+  border-radius: 9px;
+  display: block;
+  margin: 30px auto 30px auto;
+}
+
 .app-img {
   height: 500.25px;
   width: 281.25px;
