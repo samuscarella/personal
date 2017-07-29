@@ -18,15 +18,25 @@ a { color: white !important;}
 }
 
 .header-container {
-  height: 400px;
+  height: 300px;
   background-image: url('../images/shiny-apple.jpg');
   background-size: cover;
+  background-opacity: 0.50;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 0 !important;
+}
+
+.header-container > .overlay {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.25;
 }
 
 .blast-container {
-  /*height: 300px;*/
+  padding: 0 5% !important;
 }
 
 .header-full-name {
@@ -34,25 +44,27 @@ a { color: white !important;}
   color: white;
   font-size: 48px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 .occupation-name {
-  font-family: "space_age";
+  font-family: "Ubuntu";
   color: white;
   text-align: center;
   margin-top: 50px;
 }
 
 .blast-title {
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu-Bold',;
+  font-size: 30px;
   font-weight: bolder;
   margin-top: 100px;
   text-align: center;
 }
 
 .blast-subtitle {
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
+  font-size: 20px;
   margin-top: 30px;
   text-align: center;
 }
@@ -77,7 +89,7 @@ a { color: white !important;}
 .education-agenda-title {
   text-align: center;
   color: white;
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
   font-size: 24px;
   margin-top: 30px;
 }
@@ -95,7 +107,7 @@ a { color: white !important;}
 .education-description {
   text-align: center;
   color: white;
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -104,11 +116,11 @@ a { color: white !important;}
 .section-header {
   text-align: center;
   color: white;
-  font-family: "space_age";
+  font-family: "Ubuntu";
 }
 
 .portfolio-container, .contact-us-container {
-  padding: 30px 0 20px 0 !important;
+  padding: 20px 0 20px 0 !important;
 }
 
 .helper {
@@ -166,6 +178,17 @@ a { color: white !important;}
   margin: 30px auto 30px auto;
 }
 
+#space {
+  position: relative;
+    bottom: 50px;
+}
+
+.general-icon {
+  width: 45px;
+  height: 45px;
+  margin: 0 20px;
+}
+
 /*.float-right {*/
   /*float: right;*/
 /*}*/
@@ -185,30 +208,32 @@ a { color: white !important;}
 .sub-contact-text {
   color: white;
   text-align: center;
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
 }
 
 .main-project-title {
   text-align: center;
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
 }
 
 .main-project-description {
   text-align: center;
   margin: 30px 20%;
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
 }
 
 .blast-description {
   text-align: center;
   margin: 30px 0;
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 .source-code-btn {
   text-align: center;
   margin: 10px -50px;
-  position:relative;
+  position: relative;
   top: 50%;
   left: 50%;
 }
@@ -238,12 +263,13 @@ a { color: white !important;}
 
 .contact-us-container {
   background-color: black;
+  opacity: 0.95;
   padding: 30px 0 90px 0;
 }
 
 .contact-us-name {
   color: white;
-  font-family: 'Ranga', cursive;
+  font-family: 'Ubuntu', cursive;
   text-align: center;
 }
 
@@ -279,13 +305,23 @@ a { color: white !important;}
 
 #profile-photo {
   border-radius: 50%;
-  width: 145px;
-  height: 145px;
-  position: absolute;
-    top: 330px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 75px;
     left: 50%;
   margin-left: -72.5px;
-  border: solid black 1px;
+  border: solid black 3px;
+}
+
+.blast-title {
+  margin-top: 50px !important;
+  margin-bottom: 60px !important;
+}
+
+.navbar {
+  background-color: black !important;
+  opacity: 0.95;
 }
 
 .left-arrow {
@@ -294,6 +330,14 @@ a { color: white !important;}
 
 .right-arrow {
   margin-left: 50px;
+}
+
+#email-text {
+  font-size: 24px;
+}
+
+li a {
+  font-family: 'Ubuntu';
 }
 
 @media only screen and (min-width: 50px) and (max-width: 991px) {
