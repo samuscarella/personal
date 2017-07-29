@@ -13,6 +13,10 @@ a { color: white !important;}
     src: url("../fonts/space_age.ttf")
 }
 
+#decrement, #increment {
+  cursor: pointer;
+}
+
 .header-container {
   height: 400px;
   background-image: url('../images/la.jpg');
@@ -127,18 +131,46 @@ a { color: white !important;}
 }
 
 .ma-and-pa-main-image {
-  height: 180px;
-  width: 135px;
+  height: 150px;
+  width: 100px;
+  display: inline-block;
+  margin: 30px auto 30px auto;
+}
+
+.main-image {
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  margin: 30px auto 30px auto;
+}
+
+.navigator {
   display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.arrows {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
   margin: 30px auto 30px auto;
 }
 
 .moments-main-image {
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 120px;
   border-radius: 9px;
-  display: block;
+  display: inline-block;
   margin: 30px auto 30px auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }
 
 .app-img {
@@ -253,4 +285,12 @@ a { color: white !important;}
     left: 50%;
   margin-left: -72.5px;
   border: solid black 1px;
+}
+
+.left-arrow {
+  margin-right: 100px;
+}
+
+.right-arrow {
+  margin-left: 100px;
 }
