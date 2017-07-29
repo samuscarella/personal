@@ -165,13 +165,13 @@ a { color: white !important;}
   margin: 30px auto 30px auto;
 }
 
-.float-right {
-  float: right;
-}
+/*.float-right {*/
+  /*float: right;*/
+/*}*/
 
-.float-left {
-  float: left;
-}
+/*.float-left {*/
+  /*float: left;*/
+/*}*/
 
 .app-img {
   height: 500.25px;
@@ -288,9 +288,16 @@ a { color: white !important;}
 }
 
 .left-arrow {
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .right-arrow {
-  margin-left: 100px;
+  margin-left: 50px;
 }
+
+@media only screen and (min-width: 50px) and (max-width: 991px) {
+  .float-left, float-right {
+    float: none;
+  }
+}
+
