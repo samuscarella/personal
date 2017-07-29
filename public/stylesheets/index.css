@@ -19,9 +19,10 @@ a { color: white !important;}
 
 .header-container {
   height: 400px;
-  background-image: url('../images/la.jpg');
+  background-image: url('../images/shiny-apple.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .blast-container {
