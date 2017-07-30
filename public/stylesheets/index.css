@@ -36,7 +36,7 @@ a { color: white !important;}
 }
 
 .blast-container {
-  padding: 0 10% !important;
+  padding: 30px 10% !important;
 }
 
 .header-full-name {
@@ -55,11 +55,18 @@ a { color: white !important;}
 }
 
 .blast-title {
-  font-family: 'Ubuntu-Bold',;
+  font-family: 'Ubuntu';
   font-size: 30px;
   font-weight: bolder;
-  margin-top: 100px;
+  margin-top: 0px !important;
   text-align: center;
+}
+
+.tri-icon {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto 30px auto;
 }
 
 .blast-subtitle {
@@ -347,6 +354,27 @@ a { color: white !important;}
 
 #email-text {
   font-size: 24px;
+}
+
+.wrench-gold {
+  width: 60px;
+  height: 60px;
+}
+
+.dark {
+  background-color: #1F1F1F;
+}
+
+.blast-sub {
+  text-align: center;
+}
+
+.services-container {
+  margin: 30px 0 !important;
+}
+
+.white {
+  color: white !important;
 }
 
 li a {
