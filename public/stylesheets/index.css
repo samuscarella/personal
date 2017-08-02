@@ -27,6 +27,38 @@ a { color: white !important;}
   padding: 0 !important;
 }
 
+#social-icon-one {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 12%;
+  bottom: 590px;
+}
+
+#social-icon-two {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 25%;
+  bottom: 590px;
+}
+
+#social-icon-three {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 24%;
+  bottom: 590px;
+}
+
+#social-icon-four {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 12%;
+  bottom: 590px;
+}
+
 .header-container > .overlay {
   width: 100%;
   height: 350px;

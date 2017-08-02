@@ -48,7 +48,11 @@
          </div>
       </div>
     </div>
+      <a href="#"><img src="/images/facebook.png" id="social-icon-one"/></a>
+      <a href="#"> <img src="/images/youtube.png" id="social-icon-two"/></a>∂
       <img src="/images/Final.png" id="profile-photo"/>
+      <a href="#"> <img src="/images/instagram.png" id="social-icon-three"/></a>
+      <a href="#"> <img src="/images/twitter.png" id="social-icon-four"/></a>
       <div class="container-fluid portfolio-container">
         <div id="blast" class="container-fluid blast-container">
           <div class="row">
@@ -87,7 +91,7 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-md-12 tri-col">
-                          <img src="/images/user-experience.png" class="tri-icon"/>
+                          <img src="/images/theater-mask.png" class="tri-icon"/>
                         </div>
                       </div>
                       <div class="row">
@@ -106,7 +110,7 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-md-12 tri-col">
-                          <img src="/images/user-experience.png" class="tri-icon"/>
+                          <img src="/images/cloud-server.png" class="tri-icon"/>
                         </div>
                       </div>
                       <div class="row">
@@ -161,5 +165,14 @@
       <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
       <img class="modal-content" id="img01">
     </div>
+<script>
+    document.getElementById('social-icon-one').onclick = function() {
+        FB.ui({
+            method: 'share',
+            display: 'popup',
+            href: 'https://developers.facebook.com/docs/',
+        }, function(response){});
+    }
+</script>
   </body>
 </html>
