@@ -52,7 +52,7 @@ function logHostIpAddress() {
                 // this single interface has multiple ipv4 addresses
                 console.log(ifname + ':' + alias, iface.address);
             } else {
-                // this interface has only one ipv4 adress
+                // this interface has only one ipv4 address
                 console.log(ifname, iface.address);
             }
             ++alias;
